@@ -43,7 +43,7 @@ body {
     /* align-items: flex-start; COMMENT starts text at top of flex box */
     
     /*background image styles */
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/sb1.png"); /* background image */
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('images/sb1.png'); /* background image */
     background-size: cover; /* covers the full page */
     background-position: center center; /* positions image at center of screen */
     background-repeat: no-repeat; /* stops image from tiling */
