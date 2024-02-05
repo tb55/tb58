@@ -43,7 +43,7 @@ body {
     /* align-items: flex-start; COMMENT starts text at top of flex box */
     
     /*background image styles */
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('images/trophy3.jpg'); /* background image */
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('images/sb1.PNG'); /* background image */
     background-size: cover; /* covers the full page */
     background-position: center center; /* positions image at center of screen */
     background-repeat: no-repeat; /* stops image from tiling */
@@ -53,7 +53,7 @@ body {
 /* show different image on iphones held vertically */
 @media (max-width: 450px){
   .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/trophy3.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/sb1.PNG');
   }
 }
 
@@ -61,7 +61,7 @@ body {
 /* show different image on devices in landscape mode - height greater than width */
 @media (orientation: portrait){
   .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/trophy3.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/sb1.PNG");
   }
 }
 
