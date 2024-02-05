@@ -53,7 +53,7 @@ body {
 /* show different image on iphones held vertically */
 @media (max-width: 450px){
   .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/trophy3.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/trophy3.jpg');
   }
 }
 
