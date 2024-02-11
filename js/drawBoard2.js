@@ -59,7 +59,6 @@ function fillBoxes()
     //"John Kosner","Suzanne Todd", "Wendi Trilling", "Julian Goldstein", "Luke Kosner", "Joe Triling",
     //"Jonathan Groff", "Minni Gopal","Susan Howard","Brian Kiley", "Charlie Sherwood", "Karen Sherwood", "Ben Sherwood", "Eke McGinley", "Steve Trilling", "Max Trilling"]; 
     
-    
     const taken_squares = [[36,27,53,81,47],[43,14,34,21,78],[96,84,66,35, 73], [12,85, 62, 72, 10], [40,76,67, 60],
     [44,75,57,31, 61], [49,9,30,51, 70], [64,83,2,59,4], [74,45,22,99,63], [86,38,3,95,32],[80,5,11,17,15],
     [50,69,20], [39,23,42], [33,24,100,19,8],[89,29,94,55,26], [68,41,16,98, 71], [7,77,13,25,82], 
