@@ -65,7 +65,7 @@ function fillBoxes()
     [65,92,56,93,54], [97,6,1,58,79], [90,28,46,18,88], [87,48, 37,91,52]];  
     
     const player_names = ["Mick Kirsch","Carey Friedman","Evanne's Candy", "Lisa Ginsberg", "Brian Ginsberg",
-    "John Kosner","Suzanne Todd", "Wendi Trilling", "Julian Goldstein", "Luke Kosner", "Joe Triling",
+    "John Kosner","Suzanne Todd", "Karen Umland", "Julian Goldstein", "Luke Kosner", "Joe Triling",
     "Jonathan Groff", "Minni Gopal","Susan Howard","Brian Kiley", "Charlie Sherwood", "Karen Sherwood", "Ben Sherwood", "Eke McGinley", 
     "Steve Trilling", "Max Trilling"];
     
