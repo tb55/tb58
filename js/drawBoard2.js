@@ -53,10 +53,10 @@ function fillBoxes()
     const taken_squares = [[36,27,53,81,47,43,14,34,21,78,96], [84,66,35], [73,12,85], [62,72,10,40,76,67,60,44,75,57],
         [61,49,9,30,28], [70,64,83,2,59,4,18,45,22,99], [86,63,38,3,95,32,80,5,11,17,15,50,69,20], [39,23,42,33,24,100,19],
         [8,89,88],[29,94,55], [68,41,16],[98,71,7,77,13,25,82], [65,92,56,93,54,97,6], [1,58], [79,90,51,46,74,26,48], [37,91,52,31,87]];  
-    const player_names = ["Rowan Trollope", "Brian Ginsberg", "Brian Kiley", "Jonathan Groff", "Minni Ajei",
+    const player_names = ["Rowan Trollope","Brian Ginsberg", "Brian Kiley", "Jonathan Groff", "Minni Ajei",
     "Burstein Kosner","Carly Weiman", "Jack Gargiulo", "Jon Weiman", "Lisa Ginsberg", "Jeremy U",
     "Prajit Gopal", "Ben Sherwood","Rohit Gopal","Charlie Sherwood", "Matt E."];  
-    const winning_squares=[78,45,72,59];  //add correct winning squares here
+    const winning_squares=[];  //ADD WINNING SQUARE NUMBERS HERE
     if (screen_width=="monitor") {
         context.font="11px Arial bold";  // 11px font for full-size monitor screen
         console.log("11px font")
@@ -113,16 +113,16 @@ function fillBoxes()
     //fill the one box "shared" between teams with a gradient of both team colors
     var grd;
     grd=context.createLinearGradient(width-1,p+1,p+1,width-1); //added variables for 59,11,11,59
-    grd.addColorStop(0,"#E31837");  //horizontal team color
-    grd.addColorStop(1.0,"#004C54"); //vertical team color
+    grd.addColorStop(0,"#E31837");  //horizontal team color (Chiefs red)
+    grd.addColorStop(1.0,"#B3995D"); //vertical team color (49ers gold)
     context.fillStyle=grd;
     context.fillRect(p+1,p+1, width-1, width-1); //added variables for 11,11,59,59
      
         
     for (var x = 0; x < 10; x++) { 
-        context.fillStyle="#E31837"; //fill color of horizontal boxes with numbers  (Chiefs gold)
+        context.fillStyle="#E31837"; //fill color of horizontal boxes with numbers  (Chiefs red)
         context.fillRect(p + 1 + (width*(x+1)), p + 1, width-1, width-1);  //added variables
-        context.fillStyle="#004C54"; //fill color of vertical boxes with numbers (Eagles green)
+        context.fillStyle="#B3995D"; //fill color of vertical boxes with numbers (49ers gold)
         context.fillRect(p + 1, p + 1 + (width*(x+1)), width-1, width-1); //added variables
     }    
     //context.fillStyle = "black";   //text color of boxes with numbers, commented this out and added it placeNumbers function

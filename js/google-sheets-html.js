@@ -13,12 +13,7 @@ google.charts.load('current', {packages: ['table']});
 var visualization;
 
 function drawVisualization() {
-    //var query = new google.visualization.Query('https://docs.google.com/tq?key=1VI5-YacQoKISys2538DCT5zkqzLj8T6OwlXQ6DhvfX4&output=html&usp=sharing');
-    
-    //var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/14oq4vYSem8eqA0AyKrFEjcn6m_jxvQ_Wit-oXzT75Sc/gviz/tq?tqx=out:html&tq&');
-
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1pj8wrdy3qw8zRdya0wok3NexoqmxPHJAaO3d2qaJJig/edit#gid=1856448721');
-
+   var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ufkbQszQBq-heB0VJOXlhVAdssJ3loOyTlAkZHHI99Q/edit#gid=1856448721');
 
 //    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1t7xMotX-kAyLbaIqPDndIvSos2YlwIE4M3HFSkPjWwQ/gviz/tq?tqx=out:html&tq&gid=1856448721');
     
