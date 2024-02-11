@@ -50,12 +50,26 @@ function drawGrid(){
 
 function fillBoxes()
 {   //squares
-    const taken_squares = [[36,27,53,81,47,43,14,34,21,78,96], [84,66,35], [73,12,85], [62,72,10,40,76,67,60,44,75,57],
-        [61,49,9,30,28], [70,64,83,2,59,4,18,45,22,99], [86,63,38,3,95,32,80,5,11,17,15,50,69,20], [39,23,42,33,24,100,19],
-        [8,89,88],[29,94,55], [68,41,16],[98,71,7,77,13,25,82], [65,92,56,93,54,97,6], [1,58], [79,90,51,46,74,26,48], [37,91,52,31,87]];  
-    const player_names = ["Rowan Trollope","Brian Ginsberg", "Brian Kiley", "Jonathan Groff", "Minni Ajei",
-    "Burstein Kosner","Carly Weiman", "Jack Gargiulo", "Jon Weiman", "Lisa Ginsberg", "Jeremy U",
-    "Prajit Gopal", "Ben Sherwood","Rohit Gopal","Charlie Sherwood", "Matt E."];  
+    
+    
+    //const taken_squares = [[36,27,53,81,47,43,14,34,21,78,96], [84,66,35], [73,12,85], [62,72,10,40,76,67,60,44,75,57],
+    //    [61,49,9,30,28], [70,64,83,2,59,4,18,45,22,99], [86,63,38,3,95,32,80,5,11,17,15,50,69,20], [39,23,42,33,24,100,19],
+    //    [8,89,88],[29,94,55], [68,41,16],[98,71,7,77,13,25,82], [65,92,56,93,54,97,6], [1,58], [79,90,51,46,74,26,48], [37,91,52,31,87]];  
+    //const player_names = ["Mick Kirsch","Carey Friedman","Evanne's EC", "Lisa Ginsberg", "Brian Ginsberg",
+    //"John Kosner","Suzanne Todd", "Wendi Trilling", "Julian Goldstein", "Luke Kosner", "Joe Triling",
+    //"Jonathan Groff", "Minni Gopal","Susan Howard","Brian Kiley", "Charlie Sherwood", "Karen Sherwood", "Ben Sherwood", "Eke McGinley", "Steve Trilling", "Max Trilling"]; 
+    
+    
+    const taken_squares = [[36,27,53,81,47],[43,14,34,21,78],[96,84,66,35, 73], [12,85, 62, 72, 10], [40,76,67, 60],
+    [44,75,57,31, 61], [49,9,30,51, 70], [64,83,2,59,4], [74,45,22,99,63], [86,38,3,95,32],[80,5,11,17,15],
+    [50,69,20], [39,23,42], [33,24,100,19,8],[89,29,94,55,26], [68,41,16,98, 71], [7,77,13,25,82], 
+    [65,92,56,93,54], [97,6,1,58,79], [90,28,46,18,88], [87,48, 37,91,52]];  
+    
+    const player_names = ["Mick Kirsch","Carey Friedman","Evanne's Candy", "Lisa Ginsberg", "Brian Ginsberg",
+    "John Kosner","Suzanne Todd", "Wendi Trilling", "Julian Goldstein", "Luke Kosner", "Joe Triling",
+    "Jonathan Groff", "Minni Gopal","Susan Howard","Brian Kiley", "Charlie Sherwood", "Karen Sherwood", "Ben Sherwood", "Eke McGinley", 
+    "Steve Trilling", "Max Trilling"];
+    
     const winning_squares=[];  //ADD WINNING SQUARE NUMBERS HERE
     if (screen_width=="monitor") {
         context.font="11px Arial bold";  // 11px font for full-size monitor screen
