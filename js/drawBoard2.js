@@ -65,11 +65,11 @@ function fillBoxes()
     [65,92,56,93,54], [97,6,1,58,79], [90,28,46,18,88], [87,48, 37,91,52]];  
     
     const player_names = ["Mick Kirsch","Carey Friedman","Evanne's Candy", "Lisa Ginsberg", "Brian Ginsberg",
-    "John Kosner","Suzanne Todd", "Karen Umland", "Julian Goldstein", "Luke Kosner", "Joe Triling",
+    "John Kosner","Suzanne Todd", "Karen Umland", "Julian Goldstein", "Luke Kosner", "Joe Trilling",
     "Jonathan Groff", "Minni Gopal","Susan Howard","Brian Kiley", "Charlie Sherwood", "Karen Sherwood", "Ben Sherwood", "Eke McGinley", 
     "Steve Trilling", "Max Trilling"];
     
-    const winning_squares=[1,4, 4];  //ADD WINNING SQUARE NUMBERS HERE
+    const winning_squares=[1,4, 4,100, 27];  //ADD WINNING SQUARE NUMBERS HERE
     if (screen_width=="monitor") {
         context.font="11px Arial bold";  // 11px font for full-size monitor screen
         console.log("11px font")
