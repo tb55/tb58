@@ -69,7 +69,7 @@ function fillBoxes()
     "Jonathan Groff", "Minni Gopal","Susan Howard","Brian Kiley", "Charlie Sherwood", "Karen Sherwood", "Ben Sherwood", "Eke McGinley", 
     "Steve Trilling", "Max Trilling"];
     
-    const winning_squares=[1,4, 4,100, 27];  //ADD WINNING SQUARE NUMBERS HERE
+    const winning_squares=[1,4, 4,100, 26];  //ADD WINNING SQUARE NUMBERS HERE
     if (screen_width=="monitor") {
         context.font="11px Arial bold";  // 11px font for full-size monitor screen
         console.log("11px font")
